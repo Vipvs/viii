@@ -7,8 +7,8 @@ void main()
   scanf("%s%s",s1,s2);
   for(i=0;i<strlen(s1);i++)
   {
-	  if(s1[i]==s2[i])
-		  c++;
+	 if(s1[i]==s2[i])
+	 c++;
   }
   printf("%d",c);
 }
